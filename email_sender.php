@@ -8,8 +8,8 @@ class EmailSender {
     private $fromEmail = 'no-reply@chars.com.ar';
     private $fromName = 'Portfolio de Carlos';
     private $smtpHost = 'smtp.hostinger.com';
-    private $smtpUsername = 'no-reply@chars.com.ar';
-    private $smtpPassword = 'Chars2025-';
+    private $smtpUsername = '';
+    private $smtpPassword = '';
     private $smtpPort = 587;
     private $smtpSecure = 'tls';
     private $debugMode = 0; // 0 para producción, 2 para desarrollo
